@@ -13,7 +13,8 @@
                         kmindex_root: admin.shanti_kmaps_admin_server_solr,
                         type: domain,
                         root_kmap_path: root_kmap_path,
-                        baseUrl: base_url
+                        baseUrl: base_url,
+                        generateIds: false
                     });
                 });
                 $('.kmapfacettree').each(function() { $(this).css("height", "auto"); });

@@ -15,7 +15,7 @@
 					data-kmtype="<?php echo $kmtype; ?>" 
 					data-kmroot="<?php echo $kmroot; ?>"
 					data-kmurl="<?php echo $treeurl; ?>"
-					class="view-wrap kmapfacettree <?php print $classes; ?>">
+					class="kmapfacettree <?php print $classes; ?>">
 		<!-- Content created through Fancytree JS using kmtype and kmroot. See kmaps_facet.js. -->
 		</div>
   </div>
