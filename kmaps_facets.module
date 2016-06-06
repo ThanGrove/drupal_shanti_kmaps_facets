@@ -222,7 +222,7 @@ function kmaps_facets_block_view($delta = 1) {
             'delta' => $delta,
             'kmtype' => $kmtype,
             'kmroot' => $kmroot,
-            'treeurl' => 'null',
+            'treeurl' => 'null', // maybe unnecessary leftover from previous version
         )),
     );
     return $block;
